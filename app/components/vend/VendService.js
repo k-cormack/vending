@@ -1,3 +1,6 @@
+import VendingMachine from "../Models/VendingMachine.js"
+
+
 //Private Parts
 
 let total = 0
@@ -5,9 +8,9 @@ let total = 0
 
 //this is a dictionary that holds a value
 const currency = {
-    quarter: .25,
-    dime: .1,
-    nickel: .05
+    fiver: 5,
+    dollar: 1,
+    quarter: .25
 }
 
 

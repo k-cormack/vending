@@ -16,27 +16,24 @@
     <main>
         <div class="food">
             <div class="food-item">
-                <img src="" alt="">
+                <img src="http://3.bp.blogspot.com/_DaeDn87aiQ8/TSATHhzqpyI/AAAAAAAAB8g/5FDkmT-jpmQ/s1600/Orange_Soda-Pop.jpg" alt="">
             </div>
-        </div>
-        <div class="food">
             <div class="food-item">
-                <img src="" alt="">
+                <img src="https://i5.walmartimages.com/asr/04a746ec-9023-4f58-8025-6cebb3a87efe_1.230c3fc33dcc7ca1f904124fd15f76ee.jpeg?odnHeight=450&amp;odnWidth=450&amp;odnBg=FFFFFF" alt="">
             </div>
-        </div>
-        <div class="food">
             <div class="food-item">
-                <img src="" alt="">
+                <img src="http://www.taquitos.net/im/sn/Munchos.jpg" alt="">
             </div>
         </div>
+
         <div class="money">
+            <button onclick="app.controllers.vendController.addMoney('fiver')">$5.00</button>
+            <button onclick="app.controllers.vendController.addMoney('dollar')">$1.00</button>
             <button onclick="app.controllers.vendController.addMoney('quarter')">$0.25</button>
-            <button onclick="app.controllers.vendController.addMoney('dime')">$0.10</button>
-            <button onclick="app.controllers.vendController.addMoney('nickel')">$0.05</button>
         </div>
         <div class="total">
             <p>Change:
-                <span id="total">$0.00</span>
+                $<span id="total">0.00</span>
             </p>
         </div>
     </main>

@@ -57,7 +57,7 @@ class VendingMachine {
     }
 }
 
-export default VendingMachine()
+export default VendingMachine
 
 
 
